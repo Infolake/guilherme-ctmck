@@ -1,0 +1,214 @@
+# ========= CTMCK Project .gitignore =========
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+
+# LaTeX temporary files
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+
+# Backup files
+*~
+*.backup
+*.bak
+*.swp
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (large)
+*.dat
+*.hdf5
+*.h5
+*.fits
+*.nc
+
+# Temporary calculation files
+*.temp
+*.scratch
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large output files
+*.mov
+*.mp4
+*.avi
+*.wmv
+
+# Sensitive information
+credentials.txt
+api_keys.txt
+passwords.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# CTMCK specific - temporary and development files
+email_*.txt
+checklist_*.md
+prepare_*.sh
+*_template.txt
+*_checklist.md
+*_summary.md
+*_refinements*.md
+ctmck_v0p1_arxiv.zip
+
+# Arquivos de desenvolvimento que devem ficar locais
+guilherme-ctmck/
+*.zip
+release_script.sh
+update_doi.sh 
+# Backup directories
+CTMCK_BACKUPS/
+../CTMCK_BACKUPS/
+**/CTMCK_backup_*/
+
